@@ -5,5 +5,6 @@ export { AppText } from './AppText';
 export { AppTopBar } from './AppTopBar';
 export { AppLoader } from './AppLoader';
 export { AppImage } from './AppImage';
+export { AppNetworkChecker } from './AppNetworkChecker';
 
 export * from './Globals';

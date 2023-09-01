@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { styles } from "./styles";
-import { AppFlatList } from '../common/';
+import { AppFlatList, AppNetworkChecker } from '../common/';
 import { CompanyItem } from './components/';
 import Autocomplete from 'react-native-autocomplete-input';
 import { getCompanies } from '../../data/MockDataAPI';
